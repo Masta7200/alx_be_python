@@ -1,7 +1,7 @@
 
 task = input("Enter your task: ")
-priority = input("priority (high, medium, low): ").lower()
-bound = input("Is this task time-bound? (yes or no): ").lower()
+priority = input("priority (high, medium, low): ")
+bound = input("Is this task time-bound? (yes or no): ")
 
 reminder_message = f"Reminder: You have a task '{task}' with {priority} priority."
 
